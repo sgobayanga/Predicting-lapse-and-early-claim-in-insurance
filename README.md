@@ -1,7 +1,6 @@
 # Insurance Policy Analytics: Lapse Prediction, Early Claim Detection and Business Insights
 
 ## Project Overview
-
 This project applies data analytics and machine learning techniques to an insurance policy dataset to identify key business risks and opportunities. The analysis focuses on three major areas:
 
 1. **Policy Lapse Analysis** – Identifying factors associated with policy cancellations and premium loss.
@@ -10,12 +9,8 @@ This project applies data analytics and machine learning techniques to an insura
 
 The project combines exploratory data analysis (EDA), feature engineering, risk segmentation, and predictive modeling to support data-driven decision-making in the insurance industry.
 
----
-
 ## Objectives
-
 The project aims to:
-
 * Analyze factors influencing policy lapses.
 * Identify high-risk customer segments for early claims.
 * Quantify premium revenue lost through lapsed policies.
@@ -23,12 +18,8 @@ The project aims to:
 * Generate actionable business recommendations.
 * Build predictive models for lapse and claim risk assessment.
 
----
-
 ## Dataset
-
 The dataset contains insurance policy information including:
-
 * Customer demographics
 * Policy details
 * Premium information
@@ -38,7 +29,6 @@ The dataset contains insurance policy information including:
 * Policy status indicators
 
 ### Key Variables
-
 | Variable       | Description                                      |
 | -------------- | ------------------------------------------------ |
 | Age            | Customer age                                     |
@@ -50,10 +40,7 @@ The dataset contains insurance policy information including:
 | ClaimFlag      | Indicates whether a claim occurred               |
 | EarlyClaim     | Indicates a claim shortly after policy inception |
 
----
-
 ## Technologies Used
-
 * Python
 * Pandas
 * NumPy
@@ -62,14 +49,10 @@ The dataset contains insurance policy information including:
 * Scikit-Learn
 * Jupyter Notebook
 
----
-
 ## Analysis Conducted
-
 ### 1. Exploratory Data Analysis (EDA)
 
 The project investigates:
-
 * Customer demographics
 * Premium distributions
 * Channel performance
@@ -77,9 +60,7 @@ The project investigates:
 * Claim occurrence trends
 
 ### 2. Policy Lapse Analysis
-
 Key analyses include:
-
 * Lapse rate by age group
 * Lapse rate by distribution channel
 * Lapse rate by missed payments
@@ -87,34 +68,24 @@ Key analyses include:
 * High-risk customer segment identification
 
 ### 3. Early Claim Risk Analysis
-
 The notebook evaluates:
-
 * Early claim rate across age groups
 * Channel-specific claim behavior
 * Premium and claim relationships
 * High-risk customer profiling
 
 ### 4. Business Insights
-
 Business-focused analyses include:
-
 * Revenue leakage due to lapses
 * Channel effectiveness comparison
 * Customer retention opportunities
 * Risk concentration assessment
 * Potential financial impact of interventions
 
----
-
 ## Machine Learning Models
-
 The project develops predictive models to:
-
 ### Lapse Prediction
-
 Predict whether a policyholder is likely to lapse based on:
-
 * Age
 * Premium amount
 * Channel
@@ -122,17 +93,13 @@ Predict whether a policyholder is likely to lapse based on:
 * Other customer attributes
 
 ### Early Claim Prediction
-
 Predict the likelihood of early claims using:
-
 * Demographic information
 * Policy characteristics
 * Customer behavior indicators
 
 ### Evaluation Metrics
-
 Models are assessed using:
-
 * Accuracy
 * Precision
 * Recall
@@ -140,44 +107,29 @@ Models are assessed using:
 * Confusion Matrix
 * ROC-AUC Score
 
----
-
 ## Key Findings
-
 Some major insights identified include:
-
 * Policy lapse rates increase significantly with missed premium payments.
 * Certain distribution channels experience higher lapse rates than others.
 * Older customer segments demonstrate higher early claim rates.
 * Large amounts of premium revenue are tied up in lapsed policies.
 * Targeted retention interventions can significantly reduce revenue losses.
 
----
-
 ## Business Recommendations
-
 ### Customer Retention
-
 * Implement early warning systems for missed payments.
 * Introduce automated premium reminders.
 * Develop retention campaigns for high-risk customers.
-
 ### Channel Optimization
-
 * Strengthen monitoring of underperforming channels.
 * Replicate best practices from low-lapse channels.
 * Improve intermediary training and customer engagement.
-
 ### Risk Management
-
 * Enhance underwriting controls for high-risk segments.
 * Monitor customers with repeated missed payments.
 * Use predictive models for proactive intervention.
 
----
-
 ## Project Structure
-
 ```text
 ├── Predicting lapse, early claim and business Insights - Python script.ipynb
 ├── README.md
@@ -187,9 +139,6 @@ Some major insights identified include:
 │   ├── charts
 │   ├── model_results
 │   └── business_insights
-```
-
----
 
 ## How to Run
 
@@ -199,39 +148,25 @@ Some major insights identified include:
 git clone https://github.com/yourusername/insurance-policy-analytics.git
 cd insurance-policy-analytics
 ```
-
 ### Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
-
 ### Launch Jupyter Notebook
-
 ```bash
 jupyter notebook
 ```
-
 Open:
-
 ```text
 Predicting lapse, early claim and business Insights - Python script.ipynb
 ```
-
 and run all cells.
 
 ---
-
 ## Future Improvements
-
 * Deploy predictive models as a web application.
 * Implement real-time risk scoring.
 * Integrate advanced machine learning algorithms.
 * Develop interactive dashboards using Power BI or Tableau.
 * Incorporate customer lifetime value analysis.
-
----
-
-
----
-
